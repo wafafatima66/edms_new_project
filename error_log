@@ -1,0 +1,67 @@
+[04-Dec-2020 05:17:03 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[04-Dec-2020 05:17:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/CliDumper.php(572): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'PHP's json exte...', false, 0)
+#4 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Cloner/Data.php(405): Symfony\Compone in /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[04-Dec-2020 05:17:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/CliDumper.php(572): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'PHP's json exte...', false, 0)
+#4 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Cloner/Data.php(405): Symfony\Compone in /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[04-Dec-2020 05:17:11 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[04-Dec-2020 05:17:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/CliDumper.php(572): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'PHP's json exte...', false, 0)
+#4 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Cloner/Data.php(405): Symfony\Compone in /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[04-Dec-2020 05:17:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/CliDumper.php(572): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'PHP's json exte...', false, 0)
+#4 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Cloner/Data.php(405): Symfony\Compone in /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[04-Dec-2020 05:28:54 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[04-Dec-2020 05:28:54 UTC] PHP Fatal error:  Class 'PDO' not found in /home2/quizhaat/public_html/edms/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1261
+[04-Dec-2020 05:28:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/CliDumper.php(572): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'PHP's json exte...', false, 0)
+#4 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Cloner/Data.php(405): Symfony\Compone in /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[04-Dec-2020 05:29:28 UTC] PHP Fatal error:  Class 'PDO' not found in /home2/quizhaat/public_html/edms/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1261
+[04-Dec-2020 05:29:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/CliDumper.php(572): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'PHP's json exte...', false, 0)
+#4 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Cloner/Data.php(405): Symfony\Compone in /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[04-Dec-2020 05:30:00 UTC] PHP Fatal error:  Class 'PDO' not found in /home2/quizhaat/public_html/edms/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1261
+[04-Dec-2020 05:30:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/CliDumper.php(572): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'PHP's json exte...', false, 0)
+#4 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Cloner/Data.php(405): Symfony\Compone in /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[04-Dec-2020 05:30:13 UTC] PHP Fatal error:  Class 'PDO' not found in /home2/quizhaat/public_html/edms/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1261
+[04-Dec-2020 05:30:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/CliDumper.php(572): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'PHP's json exte...', false, 0)
+#4 /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Cloner/Data.php(405): Symfony\Compone in /home2/quizhaat/public_html/edms/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
